@@ -90,17 +90,17 @@ h2 {
 }
 
 .box1 {
-  background: rgba(167, 33, 98, 0.14) url("./assets/pngwing\ 6.png") no-repeat
+  background: rgba(167, 33, 98, 0.14) url("./assets/pngwing6.png") no-repeat
     bottom;
   background-size: 70%;
 }
 .box2 {
-  background: rgba(5, 151, 160, 0.14) url("./assets/pngwing\ 5.png") no-repeat
+  background: rgba(5, 151, 160, 0.14) url("./assets/pngwing5.png") no-repeat
     bottom;
   background-size: 90%;
 }
 .box3 {
-  background: rgba(71, 125, 17, 0.14) url("./assets/pngwing\ 7.png") no-repeat
+  background: rgba(71, 125, 17, 0.14) url("./assets/pngwing7.png") no-repeat
     bottom;
   background-size: 70%;
 }
@@ -184,7 +184,7 @@ h2 {
   text-align: center;
   padding: 120px 50px;
   border-radius: 8px;
-  background: url("./assets/Rectangle\ 9.png");
+  background: url("./assets/Rectangle9.png");
 }
 .latest_deal:hover {
   border: 1px solid #e55473;
