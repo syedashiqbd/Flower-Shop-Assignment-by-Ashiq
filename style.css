@@ -31,6 +31,11 @@ p {
   font-size: 20px;
   font-weight: 700;
 }
+h2 {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+}
 
 /* banner style start */
 .banner_info {
@@ -59,3 +64,48 @@ p {
   width: 600px;
 }
 /* banner style end */
+
+/* Feature section style start */
+.feature_area {
+  text-align: center;
+  margin-top: 170px;
+}
+.feature_area p {
+  margin: 24px 0 48px;
+}
+.feature_cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+}
+
+.card_img {
+  border-radius: 300px 300px 0px 0px;
+  width: 400px;
+  height: 500px;
+}
+
+.box1 {
+  background: rgba(167, 33, 98, 0.14) url("./assets/pngwing\ 6.png") no-repeat
+    bottom;
+  background-size: 70%;
+}
+.box2 {
+  background: rgba(5, 151, 160, 0.14) url("./assets/pngwing\ 5.png") no-repeat
+    bottom;
+  background-size: 90%;
+}
+.box3 {
+  background: rgba(71, 125, 17, 0.14) url("./assets/pngwing\ 7.png") no-repeat
+    bottom;
+  background-size: 70%;
+}
+.card h4 {
+  color: #272727;
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration-line: underline;
+  margin-top: 32px;
+}
+/* Feature section style end */
