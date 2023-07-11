@@ -26,7 +26,7 @@ p {
 .primary_btn {
   border-radius: 8px;
   background: #e55473;
-  padding: 15px 40px;
+  padding: 15px 20px;
   border: none;
   color: #fff;
   font-size: 20px;
@@ -185,12 +185,13 @@ h2 {
   margin: 20px 0 50px;
 }
 .latest_deal input {
-  padding: 18px 10px;
+  padding: 18px 25px;
   width: 500px;
   border: none;
   border-radius: 8px;
   background: #fff;
   margin-right: 16px;
+  font-size: 15px;
 }
 .latest_deal form {
   display: flex;
@@ -198,3 +199,29 @@ h2 {
   align-items: center;
 }
 /* Latest deal style end */
+
+/* Footer Style start  */
+footer {
+  text-align: center;
+  background-color: #111010;
+  padding: 128px;
+}
+footer span {
+  color: #e55473;
+}
+footer h1 {
+  font-size: 48px;
+  font-weight: 800;
+  color: white;
+  margin-bottom: 24px;
+}
+footer p {
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 32px;
+}
+footer small {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 16px;
+  font-weight: 400;
+}
+/* Footer Style end  */
