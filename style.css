@@ -38,11 +38,13 @@ h2 {
 }
 
 /* banner style start */
+
 .banner_info {
   display: flex;
   align-items: center;
   gap: 100px;
 }
+
 .banner_left_info {
   width: 60%;
 }
@@ -68,7 +70,7 @@ h2 {
 /* Feature section style start */
 .feature_area {
   text-align: center;
-  margin-top: 170px;
+  margin-top: 100px;
 }
 .feature_area p {
   margin: 24px 0 48px;
@@ -122,6 +124,9 @@ h2 {
   justify-content: space-evenly;
   margin: 120px auto;
 }
+.customer_service_area:hover {
+  border: 1px solid #e55473;
+}
 .card {
   text-align: center;
 }
@@ -159,7 +164,7 @@ h2 {
 /* Instagram section style start */
 .insta_area {
   text-align: center;
-  margin-top: 170px;
+  margin-top: 100px;
 }
 .insta_area p {
   margin: 24px 0 48px;
