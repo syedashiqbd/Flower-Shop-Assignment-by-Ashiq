@@ -26,7 +26,7 @@ p {
 .primary_btn {
   border-radius: 8px;
   background: #e55473;
-  padding: 20px 43px;
+  padding: 15px 40px;
   border: none;
   color: #fff;
   font-size: 20px;
@@ -172,3 +172,29 @@ h2 {
   width: 300px;
 }
 /* Instagram section style end */
+
+/* Latest deal style start */
+.latest_deal {
+  margin: 125px auto;
+  text-align: center;
+  padding: 120px 50px;
+  border-radius: 8px;
+  background: url("./assets/Rectangle\ 9.png");
+}
+.latest_deal p {
+  margin: 20px 0 50px;
+}
+.latest_deal input {
+  padding: 18px 10px;
+  width: 500px;
+  border: none;
+  border-radius: 8px;
+  background: #fff;
+  margin-right: 16px;
+}
+.latest_deal form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Latest deal style end */
