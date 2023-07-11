@@ -30,6 +30,7 @@ p {
   color: #fff;
   font-size: 20px;
   font-weight: 700;
+  cursor: pointer;
 }
 h2 {
   color: #272727;
@@ -106,7 +107,7 @@ h2 {
     bottom;
   background-size: 70%;
 }
-.card h4 {
+.flower_card h4 {
   color: #272727;
   font-size: 24px;
   font-weight: 700;
@@ -127,10 +128,10 @@ h2 {
 .customer_service_area:hover {
   border: 1px solid #e55473;
 }
-.card {
+.service_card {
   text-align: center;
 }
-.card h5 {
+.service_card h5 {
   margin-top: 25px;
   color: rgba(39, 39, 39, 0.8);
   font-size: 20px;
@@ -182,6 +183,98 @@ h2 {
   border: 1px solid #e55473;
 }
 /* Instagram section style end */
+
+/* Testimonial section style start (Extra Section by Examinee) */
+
+.testimo_area {
+  min-height: 100vh;
+  margin: 120px auto 100px;
+  padding: 16px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.title p {
+  letter-spacing: 2px;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+
+.title h2 {
+  font-size: 2rem;
+  font-weight: 900;
+  margin-bottom: 3rem;
+}
+
+.testimo_cards {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  justify-content: space-between;
+}
+
+.card {
+  width: 400px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+.card:hover {
+  background-color: rgba(229, 84, 115, 0.046);
+}
+
+.card i {
+  font-size: 2.5rem;
+  color: #e55473;
+}
+
+.card p {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.card hr {
+  width: 50px;
+  margin: auto;
+  color: #767268;
+}
+
+.card img {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto;
+  border-radius: 100%;
+  border: 1px solid #1a2c50;
+}
+
+.card .name {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #767268;
+  transition: 0.3s;
+}
+
+.testimo_bottom h4 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.testimo_bottom p {
+  max-width: 450px;
+  margin: auto;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+/* Testimonial section style end */
 
 /* Latest deal style start */
 .latest_deal {
