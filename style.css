@@ -14,7 +14,6 @@ body {
 .container {
   width: 80%;
   margin: 0 auto;
-  /* background-color: red; */
 }
 .bg_color {
   background-color: rgba(229, 84, 115, 0.1);
@@ -85,6 +84,9 @@ h2 {
   border-radius: 300px 300px 0px 0px;
   width: 400px;
   height: 500px;
+}
+.card_img:hover {
+  border: 1px solid #e55473;
 }
 
 .box1 {
@@ -171,6 +173,9 @@ h2 {
 .insta_cards img {
   width: 300px;
 }
+.insta_cards img:hover {
+  border: 1px solid #e55473;
+}
 /* Instagram section style end */
 
 /* Latest deal style start */
@@ -180,6 +185,9 @@ h2 {
   padding: 120px 50px;
   border-radius: 8px;
   background: url("./assets/Rectangle\ 9.png");
+}
+.latest_deal:hover {
+  border: 1px solid #e55473;
 }
 .latest_deal p {
   margin: 20px 0 50px;
